@@ -1,0 +1,124 @@
+@media (min-width: 1500px) and (max-width: 1809px){
+
+    .services .content .serviceBox p{
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1499px){
+
+    .services .content .serviceBox p{
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px){
+
+    .services .content .serviceBox p{
+        min-height: 275px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px){
+
+    .services .content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .services .content .serviceBox p{
+        min-height: auto;
+    }
+    .about .content{
+        flex-direction: column;
+    }
+    .about .content .textBox{
+        width: 100%;
+        min-width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 992px){
+
+    .themSwitch{
+        left: 20px;
+    }
+    .navigation{
+        left: -100%;
+    }
+    .navigation.active{
+        left: 0;
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+        left: 0;
+    }
+    .main.active{
+        left: 100%;
+    }
+    .main .topbar{
+        width: 100%;
+        left: 0;
+        padding: 0 20px;
+    }
+    .navigation ul{
+        padding: 20px 20px;
+    }
+    .banner .imgBx{
+        width: 250px;
+        height: 250px;
+    }
+    .banner h3,
+    .banner p{
+        text-align: center;
+    }
+    .adjust{
+        padding: 0 20px;
+        padding-top: 80px;
+    }
+    .about .content{
+        flex-direction: column;
+    }
+    .about .content .textBox{
+        width: 100%;
+        min-width: 100%;
+    }
+    .about .content .imgBox{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .services .content{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .project .content{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .services .content .serviceBox p{
+        min-height: 325px;
+    }
+
+}
+
+
+@media (max-width: 767px){
+
+    .services .content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project .content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact .contactForm .row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact{
+        margin-bottom: 100px;
+    }
+    .copyright{
+        padding: 10px 20px;
+    }
+    .services .content .serviceBox p{
+        min-height: auto;
+    }
+
+}
