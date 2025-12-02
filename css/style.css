@@ -268,6 +268,7 @@ P{
 }
 .about .content .imgBox{
     margin-left: 40px;
+    display: none;
 }
 .about .content .imgBox img{
     max-width: 100%;
