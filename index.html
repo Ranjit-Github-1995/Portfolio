@@ -1,231 +1,246 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>Portfolio</title>
-        <!-- Main css -->
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <!-- Font Awsome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Responsive css -->
-        <link rel="stylesheet" href="css/responsive.css" type="text/css">
-    </head>
 
-    <body>
-        <div class="container">
-            <div class="navigation">
-                <ul>
-                    <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
-                    <li><a href="#about" onclick="toggleMenu();">About</a></li>
-                    <li><a href="#services" onclick="toggleMenu();">Skills</a></li>
-                    <li><a href="#project" onclick="toggleMenu();">Project</a></li>
-                    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
-                </ul>
-                <div class="themSwitch">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portfolio</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+</head>
 
-                </div>
-            </div>
-            <div class="main">
-                <div class="topbar">
-                    <a href="#" class="logo">Portfolio</a>
-                    <div class="toggle">
-                        <i class="fas fa-bars"></i>
-                    </div>
-                </div>
-
-                <!-- Banner -->
-                <section class="banner" id="banner">
-                    <div class="content">
-                        <div class="imgBx">
-                            <img src="images/user.JPG">
-                        </div>
-                        <h3>Ranjit Malo</h3>
-                        <p>I'm a Creative Front End Web Developer.</p>
-                        <a href="HTML_CV/index.html" target="_blank" class="btn">Download My CV</a>
-                        <ul class="socialMedia">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </section>
-
-                <!-- About -->
-                <section class="about adjust" id="about">
-                    <div class="title">
-                        <h2>About Me</h2>
-                    </div>
-                    <div class="content">
-                        <div class="textBox">
-                            <p>Detail-oriented Front-End Developer with over 3 years of experience in creating dynamic and high-performance web applications. I possess strong. skills in HTML5, CSS3, and JavaScript (ES6+), alongside experience with React.js (foundational), Bootstrap, and jQuery. I excel at translating design. concepts into responsive code while ensuring accessibility and optimization across various platforms. Always eager to advance my skills in modern frameworks, I thrive in collaborative environments.</p>
-                        </div>
-                        <div class="imgBox">
-                            <img src="images/user11.jpg">
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Services -->
-                <section class="services adjust" id="services">
-                    <div class="title">
-                        <h2>professional skills</h2>
-                        <p>I have Experience of this Skills</p>
-                    </div>
-                    <div class="content">
-                        <div class="serviceBox">
-                            <img src="images/icon1.png">
-                            <h2>Web Design</h2>
-                            <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop & mobile.</p>
-                        </div>
-                        <div class="serviceBox">
-                                <img src="images/icon2.png">
-                            <h2>Web Development</h2>
-                            <p>The role is responsible for designing, coding and modifying websites, from layout to function and according to a client’s specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.</p>
-                        </div>
-                        <div class="serviceBox">
-                            <img src="images/implement.png">
-                            <h2>Implement</h2>
-                            <p>Improve the web pages most user-friendly and user-scalable</p>
-                        </div>
-                    </div>
-                    </section>
-
-                <!-- Project -->
-                <section class="project adjust" id="project">
-                    <div class="title">
-                        <h2>Recent Work</h2>
-                        <p>There are of my some work done my current company</p>
-                    </div>
-                    <div class="content">
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/Himalaya.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 01</h3>
-                                <a href="https://himalayacars.co.uk/" target="_blank">Himalaya Cars</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/hcd.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 02</h3>
-                                <a href="https://www.hcdchauffeurdrive.com/" target="_blank">HCD Chauffeur Drive</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/afluxurywheels.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 03</h3>
-                                <a href="https://www.afluxurywheels.com/" target="_blank">AF Luxury Wheels</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/ativechauffeur.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 04</h3>
-                                <a href="https://www.arivechauffeur.com/" target="_blank">Arive Chauffeur</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/comfort_Trips.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 05</h3>
-                                <a href="https://www.comforttrips.co.uk/" target="_blank">Comfort Trips</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/new_Line.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 06</h3>
-                                <a href="https://newlinetransport.sa/en/" target="_blank">Newline Transport</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/primosolutions.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 07</h3>
-                                <a href="https://www.primosolutions.co.uk/" target="_blank">Primo Solutions</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/Rg_Travel.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 08</h3>
-                                <a href="https://www.rgtravelluxury.com/" target="_blank">RG Travel Luxury</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/VIP_Chauffeur_Services.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 09</h3>
-                                <a href="https://vipchauffeursservice.co.uk/" target="_blank">VIP Chauffeurs Service</a>
-                            </div>
-                        </div>
-                        <div class="workBx">
-                            <div class="imgBx">
-                                <img src="images/ridekoraput_cab.webp">
-                            </div>
-                            <div class="textBx">
-                                <h3>Project 10</h3>
-                                <a href="https://www.ridekoraput.com/" target="_blank">Ride Koraput</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Contact -->
-                <section class="contact adjust" id="contact">
-                    <div class="title">
-                        <h2>Lets's Say Hi</h2>
-                        <p>If you Interest my profile, Please contact me</p>
-                    </div>
-                    <div class="contactForm">
-                        <div class="row">
-                            <input type="text" name="" placeholder="First Name">
-                            <input type="text" name="" placeholder="Last Name">
-                        </div>
-                        <div class="row">
-                            <input type="email" name="" placeholder="Email Address">
-                            <input type="text" name="" placeholder="Phone Number">
-                        </div>
-                        <div class="row2">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
-                        <div class="row2">
-                            <input type="submit" value="Send">
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Copyright -->
-                <div class="copyright">
-                    <p>Copyright 2022 <i class="far fa-copyright"></i> Portfolio. All Rights Reserved</p>
-                </div>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <!-- <li><a href="#services" onclick="toggleMenu();">Skills</a></li> -->
+                <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+                <!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+            </ul>
+            <div class="themSwitch">
 
             </div>
         </div>
+        <div class="main">
+            <div class="topbar">
+                <a href="https://ranjit-github-1995.github.io/Portfolio/" class="logo">Portfolio</a>
+                <div class="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
 
-        <script src="js/custom.js" type="text/javascript"></script>
-    </body>
+            <!-- Banner -->
+            <section class="banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/user.JPG">
+                    </div>
+                    <h3>Ranjit Malo</h3>
+                    <p>I'm a Creative Front End Developer.</p>
+                    <!-- <a href="HTML_CV/index.html" target="_blank" class="btn">Download My CV</a> -->
+                    <ul class="socialMedia">
+                        <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                        <li><a href="www.linkedin.com/in/ranjit-malo-544579117"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/_saumitro"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about adjust" id="about">
+                <div class="title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="content">
+                    <div class="textBox">
+                        <p>Detail-oriented Front-End Developer with over 3 years of experience in creating dynamic and
+                            high-performance web applications. I possess strong skills in HTML5, CSS3, and JavaScript
+                            (ES6+), alongside experience with React.js (foundational), Bootstrap, and jQuery. I excel at
+                            translating design. concepts into responsive code while ensuring accessibility and
+                            optimization across various platforms. Always eager to advance my skills in modern
+                            frameworks, I thrive in collaborative environments.</p>
+                    </div>
+                    <div class="imgBox">
+                        <img src="images/user.webp">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <!-- <section class="services adjust" id="services">
+                <div class="title">
+                    <h2>professional skills</h2>
+                    <p>I have Experience of this Skills</p>
+                </div>
+                <div class="content">
+                    <div class="serviceBox">
+                        <img src="images/icon1.png">
+                        <h2>Web Design</h2>
+                        <p>Web design refers to the design of websites that are displayed on the internet. It usually
+                            refers to the user experience aspects of website development rather than software
+                            development. Web design used to be focused on designing websites for desktop & mobile.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/icon2.png">
+                        <h2>Web Development</h2>
+                        <p>The role is responsible for designing, coding and modifying websites, from layout to function
+                            and according to a client’s specifications. Strive to create visually appealing sites that
+                            feature user-friendly design and clear navigation.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/implement.png">
+                        <h2>Implement</h2>
+                        <p>Improve the web pages most user-friendly and user-scalable</p>
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- Project -->
+            <section class="project adjust" id="project">
+                <div class="title">
+                    <h2>Recent Work</h2>
+                    <p>There are of my some work done my current company</p>
+                </div>
+                <div class="content">
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/Himalaya.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 01</h3>
+                            <a href="https://himalayacars.co.uk/" target="_blank">Himalaya Cars</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/hcd.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 02</h3>
+                            <a href="https://www.hcdchauffeurdrive.com/" target="_blank">HCD Chauffeur Drive</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/afluxurywheels.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 03</h3>
+                            <a href="https://www.afluxurywheels.com/" target="_blank">AF Luxury Wheels</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/ativechauffeur.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 04</h3>
+                            <a href="https://www.arivechauffeur.com/" target="_blank">Arive Chauffeur</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/comfort_Trips.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 05</h3>
+                            <a href="https://www.comforttrips.co.uk/" target="_blank">Comfort Trips</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/new_Line.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 06</h3>
+                            <a href="https://newlinetransport.sa/en/" target="_blank">Newline Transport</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/primosolutions.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 07</h3>
+                            <a href="https://www.primosolutions.co.uk/" target="_blank">Primo Solutions</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/Rg_Travel.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 08</h3>
+                            <a href="https://www.rgtravelluxury.com/" target="_blank">RG Travel Luxury</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/VIP_Chauffeur_Services.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 09</h3>
+                            <a href="https://vipchauffeursservice.co.uk/" target="_blank">VIP Chauffeurs Service</a>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/ridekoraput_cab.webp">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 10</h3>
+                            <a href="https://www.ridekoraput.com/" target="_blank">Ride Koraput</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <!-- <section class="contact adjust" id="contact">
+                <div class="title">
+                    <h2>Lets's Say Hi</h2>
+                    <p>If you Interest my profile, Please contact me</p>
+                </div>
+                <div class="contactForm">
+                    <div class="row">
+                        <input type="text" name="" placeholder="First Name">
+                        <input type="text" name="" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="email" name="" placeholder="Email Address">
+                        <input type="text" name="" placeholder="Phone Number">
+                    </div>
+                    <div class="row2">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="row2">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p>Copyright 2025 <i class="far fa-copyright"></i> Portfolio. All Rights Reserved</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/custom.js" type="text/javascript"></script>
+</body>
+
 </html>

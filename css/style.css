@@ -257,8 +257,13 @@ P{
     margin-top: 40px;
 }
 .about .content .textBox{
-    width: 49%;
-    min-width: 49%;
+    width: 100%;
+    min-width: 100%;
+}
+.about .content .textBox p{
+    text-align: center;
+    margin: 0px auto;
+    width: 70%;
 }
 .about .content .imgBox{
     margin-left: 40px;

@@ -19,6 +19,12 @@
     }
 }
 
+@media (min-width: 993px) and (max-width: 1399px){
+    .about .content .textBox p{
+        width: 100%;
+    }
+}
+
 @media (min-width: 993px) and (max-width: 1199px){
 
     .services .content{
